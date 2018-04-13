@@ -1,10 +1,7 @@
 def turn_count(board)
 counter = 0
   board.each do |checkmove|
-    if checkmove=="O" || checkmove=="X"
-      counter += 1
-    end
-  end
+     checkmove=="O" || checkmove=="X" ? counter += 1 : end
   return counter
 end
 
